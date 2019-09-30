@@ -1,0 +1,16 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  .parent .child {
+    width: 25%;
+    border: 1px solid black;
+    text-align: center; }
+    @media screen and (max-width: 960px) {
+      .parent .child {
+        width: 50%; } }
+    @media screen and (max-width: 600px) {
+      .parent .child {
+        width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
